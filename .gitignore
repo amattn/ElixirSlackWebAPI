@@ -1,0 +1,13 @@
+/_build
+/deps
+/doc
+
+Elixir.Mix.Tasks.*.beam
+
+erl_crash.dump
+*.ez
+
+.idea
+*.iml
+
+.elixir_ls/
