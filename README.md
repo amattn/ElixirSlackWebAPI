@@ -1,4 +1,4 @@
-![Build Status](https://github.com/amattn/docs/ElixirSlackWebAPI/workflows/elixir.yml/badge.svg)
+![Build Status](https://github.com/amattn/ElixirSlackWebAPI/actions/workflows/elixir.yml/badge.svg)
 
 
 # ElixirSlackWebAPI
