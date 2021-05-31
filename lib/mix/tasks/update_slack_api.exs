@@ -1,5 +1,20 @@
 defmodule Mix.Tasks.UpdateSlackApi do
-  @moduledoc "Updates Slack API documentation files for generating API code"
+  @moduledoc """
+  Updates Slack API documentation files for generating API code
+
+
+  ## Updating docs
+
+  You can update the docs by running the mix task like so:
+
+    elixirc lib/mix/tasks/update_slack_api.exs
+    mix update_slack_api
+
+
+  While this works, the repo in question hasn't been updated in 5 years and does
+  not appear to be properly mirrored or maintained anymore.
+
+  """
 
   use Mix.Task
   @dir System.tmp_dir()

@@ -83,14 +83,7 @@ See [HTTPoison docs](https://hexdocs.pm/httpoison/HTTPoison.html#request/5) for 
 
 ```elixir
 config :slack_web, :web_http_client_opts, [timeout: 10_000, recv_timeout: 10_000]
-```
-
-## Updating docs
-
-You can update the docs by running the mix task like so:
-
-    elixirc lib/mix/tasks/update_slack_api.exs
-    mix update_slack_api                      
+```                 
 
 ## RTM (Bot) Usage
 
