@@ -83,7 +83,12 @@ See [HTTPoison docs](https://hexdocs.pm/httpoison/HTTPoison.html#request/5) for 
 
 ```elixir
 config :slack_web, :web_http_client_opts, [timeout: 10_000, recv_timeout: 10_000]
-```                 
+
+# or set a proxy
+config :slack_web, :web_http_client_opts, 
+  [proxy: {"127.0.0.1", 9090}],
+  hackney: [{:ssl_options, [{:cacertfile, "/path_to_cert/your_cert.pem"}]}]
+```
 
 ## RTM (Bot) Usage
 
