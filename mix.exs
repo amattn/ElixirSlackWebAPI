@@ -29,9 +29,9 @@ defmodule SlackWeb.Mixfile do
   defp deps do
     [
       {:httpoison, "~> 1.8"},
-      {:jason, "~> 1.2.2"},
-      {:ex_doc, "~> 0.24.2", only: :dev},
-      {:credo, "~> 1.5", only: [:dev, :test]},
+      {:jason, "~> 1.3"},
+      {:ex_doc, "~> 0.28", only: :dev},
+      {:credo, "~> 1.6", only: [:dev, :test]},
       {:plug_cowboy, "~> 2.5"}
     ]
   end
